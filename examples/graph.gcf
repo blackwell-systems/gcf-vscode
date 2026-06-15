@@ -1,0 +1,15 @@
+GCF profile=graph tool=blast_radius budget=5000 tokens=1847 symbols=5 edges=4
+# Code graph for AuthMiddleware refactor
+## targets
+@0 fn pkg.AuthMiddleware 0.78 lsp_resolved
+@1 type pkg.Config 0.71 ast_inferred
+## related
+@2 fn pkg.NewServer 0.54 lsp_resolved
+@3 fn pkg.HandleAuth 0.42 lsp_resolved
+@4 type pkg.AuthToken 0.38 ast_inferred
+## edges [4]
+@0<@2 calls
+@1<@0 references
+@3<@0 calls
+@4<@1 type_of
+##! summary counts=5,4

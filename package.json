@@ -1,0 +1,54 @@
+{
+  "name": "gcf-vscode",
+  "displayName": "GCF - Graph Compact Format",
+  "description": "Syntax highlighting for GCF, the AI-native wire format for structured data. 71% fewer tokens than JSON.",
+  "version": "0.1.0",
+  "publisher": "blackwell-systems",
+  "license": "MIT",
+  "icon": "assets/gcf-logo-blue.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackwell-systems/gcf-vscode"
+  },
+  "homepage": "https://betterthanjson.com",
+  "bugs": {
+    "url": "https://github.com/blackwell-systems/gcf-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "gcf",
+    "graph compact format",
+    "llm",
+    "ai",
+    "wire format",
+    "mcp",
+    "token efficiency"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "gcf",
+        "aliases": [
+          "GCF",
+          "Graph Compact Format"
+        ],
+        "extensions": [
+          ".gcf"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gcf",
+        "scopeName": "source.gcf",
+        "path": "./syntaxes/gcf.tmLanguage.json"
+      }
+    ]
+  }
+}

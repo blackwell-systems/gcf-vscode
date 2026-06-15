@@ -1,0 +1,11 @@
+GCF profile=generic
+name=Acme Corp
+region=us-east-1
+active=true
+## employees [3]{id,name,department,salary}
+1|Alice Smith|Engineering|95000
+2|Bob Jones|Sales|72000
+3|Carol Wu|Marketing|85000
+## departments [2]{name,budget,head}
+Engineering|500000|Alice Smith
+Sales|250000|-
