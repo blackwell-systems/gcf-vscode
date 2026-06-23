@@ -1,8 +1,8 @@
 {
   "name": "gcf-vscode",
   "displayName": "GCF - Graph Compact Format",
-  "description": "Syntax highlighting for GCF, the AI-native wire format for structured data. 71% fewer tokens than JSON.",
-  "version": "0.1.0",
+  "description": "Syntax highlighting for GCF, the AI-native wire format for structured data. 50-92% fewer tokens than JSON.",
+  "version": "0.2.0",
   "publisher": "blackwell-systems",
   "license": "MIT",
   "icon": "assets/gcf-logo-blue.png",
@@ -10,7 +10,8 @@
     "type": "git",
     "url": "https://github.com/blackwell-systems/gcf-vscode"
   },
-  "homepage": "https://betterthanjson.com",
+  "homepage": "https://gcformat.com",
+  "qna": "https://github.com/blackwell-systems/gcf-vscode/issues",
   "bugs": {
     "url": "https://github.com/blackwell-systems/gcf-vscode/issues"
   },
