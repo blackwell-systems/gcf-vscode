@@ -61,7 +61,9 @@ cargo add gcf                             # Rust
 Or wrap any existing MCP server with zero code changes:
 
 ```bash
-pip install gcf-proxy
+pip install gcf-proxy                     # PyPI
+npm install -g @blackwell-systems/gcf-proxy  # npm
+go install github.com/blackwell-systems/gcf-proxy@latest  # Go
 ```
 
 **Documentation:** [gcformat.com](https://gcformat.com)
