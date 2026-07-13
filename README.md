@@ -68,7 +68,7 @@ go install github.com/blackwell-systems/gcf-proxy@latest  # Go
 
 **Documentation:** [gcformat.com](https://gcformat.com)
 **Playground:** [gcformat.com/playground](https://gcformat.com/playground.html)
-**Specification:** [Spec v3.2 Stable](https://github.com/blackwell-systems/gcf/blob/main/SPEC.md)
+**Specification:** [SPEC v3.4.1 Stable](https://github.com/blackwell-systems/gcf/blob/main/SPEC.md)
 **Benchmarks:** [gcformat.com/guide/benchmarks](https://gcformat.com/guide/benchmarks.html)
 
 ## Adopted by
