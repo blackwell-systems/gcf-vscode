@@ -4,7 +4,7 @@
   "description": "Syntax highlighting for GCF, the AI-native wire format for structured data. 50-92% fewer tokens than JSON.",
   "version": "0.2.0",
   "publisher": "blackwell-systems",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "icon": "assets/gcf-logo-blue.png",
   "repository": {
     "type": "git",
